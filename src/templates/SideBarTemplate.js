@@ -1,13 +1,23 @@
 import './SideBarTemplate.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 function SideBarTemplate(props) {
+	const location = useLocation();
+	function returnActive(str) {
+		return location.pathname.split('/')[2] === str ? 'active' : '';
+	}
 	return ( 
 		<div id='side-bar'>
 			<h4>{props.title}</h4>
 			<ul>
 				{
 					props.links.map( (link, index) => {
-						return <li key={`link${link}${index}`}><Link to={link}>{ link }</Link></li>
+						return (
+							<li 
+								className={ returnActive(link) } 
+								key={`link${link}${index}`}>
+								<Link to={link}>{ link }</Link>
+							</li>
+						)
 					})
 				}
 			</ul>
