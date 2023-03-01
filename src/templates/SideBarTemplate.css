@@ -1,9 +1,8 @@
 #side-bar {
-	height: 100vh;
-	background-color: black;
+	width: 100vw;
+	background-color: lightgray;
 	color: white;
 	text-align: right;
-	width: 200px;
 }
 
 #side-bar h4 {
@@ -12,12 +11,15 @@
 	padding: 15px 3px;
 	text-align: left;
 }
+#side-bar ul {
+	display: flex;
+	list-style-type: none;
+}
 
 #side-bar ul li a {
 	display: block;
 	width: 100%;
-	padding: 10px 5px 10px 50px;
-	text-align: right;
+	padding: 10px;
 	text-decoration: none;
 	font-weight: bold;
 	color: white;
@@ -28,4 +30,18 @@
 }
 #side-bar ul li.active a {
 	color: black;
+}
+@media (min-width: 1024px) {
+	#side-bar {
+		height: 100vh;
+		background-color: black;
+		color: white;
+		text-align: right;
+		width: 200px;
+	}
+	#side-bar ul {
+		flex-direction: column;
+	}
+
+
 }

@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
             <header><NavBar /></header>
-            {/* <main>
+            <main>
 				<Routes>
 					<Route index element={ <Home /> } />
 					<Route path="transitions/*" element={ <Transitions /> } />
@@ -19,7 +19,7 @@ function App() {
 					<Route path="*" element={ <NotFound /> } />
 				</Routes>
             </main>
-            <footer></footer> */}
+            <footer></footer>
          </BrowserRouter>
   );
 }

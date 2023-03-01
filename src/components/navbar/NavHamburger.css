@@ -6,7 +6,7 @@
 	top: 9px;
 	right: 10px;
 	cursor: pointer;
-	opacity: 0.5;
+	opacity: 0;
 	/* hide this */
 	z-index: 20;
 	/* and place it over the hamburger */
@@ -42,7 +42,7 @@
 	top: 0;
 	right: 0;
 	z-index: 3;
-	background-color: white;
+	background-color: lightgray;
 	height: 50px;
 	/* border: 1px solid black; */
 	display: flex;
@@ -65,7 +65,6 @@
 }
 
 @media (min-width: 1024px) {
-
 	.nav-hamburger {
 		display: none;
 	}
