@@ -7,7 +7,7 @@ function SideBarTemplate(props) {
 	}
 	return ( 
 		<div id='side-bar'>
-			<h4>{props.title}</h4>
+			<h4><Link to={props.root}>{props.title}</Link></h4>
 			<ul>
 				{
 					props.links.map( (link, index) => {

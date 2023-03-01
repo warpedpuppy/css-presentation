@@ -7,7 +7,8 @@ function Animations() {
 	const links = ['celebration', 'data-visualization', 'fun']
 	return ( 
 	<Routes>
-		<Route path="/" element={ <PageTemplate title="animations" links={links} /> } >
+		<Route path="/" element={ <PageTemplate title="animations" root='/animations' links={links} /> } >
+			<Route path='/' element={ <h1>animations</h1> }/>
 			<Route path='celebration/*' element={ <Celebration /> }/>
 			<Route path='data-visualization/*' element={ <DataVisualization /> }/>
 			<Route path='fun/*' element={ <Fun /> }/>

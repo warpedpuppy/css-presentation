@@ -28,7 +28,7 @@
 	height: 4px;
 	margin-bottom: 5px;
 	position: relative;
-	background-color: black;
+	background-color: white;
 	/* background: #cdcdcd !important; */
 	border-radius: 3px;
 	z-index: 1;
@@ -42,9 +42,8 @@
 	top: 0;
 	right: 0;
 	z-index: 3;
-	background-color: lightgray;
+	background-color: black;
 	height: 50px;
-	/* border: 1px solid black; */
 	display: flex;
 	align-items: flex-end;
 	padding-right: 10px;

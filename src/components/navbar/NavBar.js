@@ -13,6 +13,9 @@ function NavBar() {
 		navigate(pathname);
 		checkboxRef.current.checked = false;
 	}
+	window.addEventListener('resize', e => {
+		if (checkboxRef.current) checkboxRef.current.checked = false;
+	})
 	return ( 
 		<nav id="main-nav">
 			<Link to="/" className="nav-brand">css</Link>

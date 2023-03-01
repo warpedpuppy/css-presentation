@@ -6,7 +6,8 @@ function Transitions() {
 	return ( 
 		<>
 			<Routes>
-				<Route path="/" element={ <PageTemplate title="transitions" links={['fade-ins', 'slide-ins']} /> } >
+				<Route path="/" element={ <PageTemplate title="transitions" root='/transitions/' links={['fade-ins', 'slide-ins']} /> } >
+					<Route path='/' element={ <h1>transitions</h1> }/>
 					<Route path='fade-ins/*' element={ <FadeIns /> }/>
 					<Route path='slide-ins/*' element={ <SlideIns /> }/>
 				</Route>
