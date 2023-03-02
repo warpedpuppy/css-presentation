@@ -36,7 +36,6 @@ header {
 	margin-top: 50px;
 }
 
-
 #main-nav ul.nav-links li {
 	background-color: black;
 	height: 35px;
@@ -46,7 +45,6 @@ header {
 	align-items: center;
 	font-weight: bold;
 	color: white;
-
 	 margin: 0;
 	 cursor: pointer;
 	 transition: background-color 0.5s;
@@ -54,6 +52,7 @@ header {
 
 #main-nav ul li.active {
 	background-color: white;
+	border-bottom: 1px solid #333;
 }
 #main-nav ul li.active {
 	color: black;
@@ -82,11 +81,13 @@ header {
 		transition: none !important;
 	}
 	#main-nav ul.nav-links li {
-		/* margin: 0 30px 0 0; */
 		height: 100%;
 		display: flex;
 		align-items: center;
 		padding:  0 20px 0;
+	}
+	#main-nav ul li.active {
+		border-bottom: none;
 	}
 
 
