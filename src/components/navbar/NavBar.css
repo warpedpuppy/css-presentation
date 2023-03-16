@@ -3,14 +3,14 @@ header {
 }
 #main-nav {
 	position: relative;
-	z-index: 2;
+	z-index: 20;
 	width: 100vw;
 	background-color: black;
 	display: flex;
 }
 #main-nav .nav-brand {
 	position: absolute;
-	z-index: 4;
+	z-index: 40;
 	display: flex;
 	align-items: center;
 	margin-left: 10px;
@@ -27,7 +27,7 @@ header {
 	width: 100vw;
 	height: 100px;
 	margin-top: -90px; /* (35 * 4) - 50  */
-	z-index: 1;
+	z-index: 0;
 	transition: margin 0.5s ease-in-out;
 	
 }

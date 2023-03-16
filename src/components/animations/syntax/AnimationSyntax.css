@@ -1,0 +1,13 @@
+#animation-syntax {
+	width: 100vw;
+	
+}
+
+
+@media (min-width: 1024px) {
+	#animation-syntax {
+		padding: 0 0 0 100px;
+		width: calc(100vw - 200px);
+	}
+
+}

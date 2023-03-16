@@ -26,6 +26,7 @@ function Easing() {
         <img src="/images/train.png" alt="train" />
       </div>
 	  <div>credit: <a href="https://codepen.io/setswon/pen/VJeXXq" rel="noreferrer" target="_blank" >https://codepen.io/setswon/pen/VJeXXq</a></div>
+	  https://matthewlein.com/tools/ceaser
     </section>
   );
 }

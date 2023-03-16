@@ -2,11 +2,11 @@
 	margin: 0 auto;
 }
 
-#home-page ul {
+#home-page #welcome ul {
 	list-style-type: circle;
-	margin-left: 100px;
+	margin-left: 10px;
 }
-#home-page ul li{
+#home-page #welcome ul li{
 	margin: 10px
 }
 #home-page ul li a {
@@ -24,7 +24,11 @@
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
 	animation-duration: 3s;
-	color: #FF00FF;
+	color: #F0F;
+}
+
+#home-page ul li:nth-child(odd) img {
+	animation-delay: 1s;
 }
 
 #home-page section {
@@ -44,6 +48,9 @@
 @media (min-width: 1024px) {
 	#home-page section  {
 		width: 80%;
+	}
+	#home-page #welcome ul {
+		margin-left: 100px;
 	}
 }
 
