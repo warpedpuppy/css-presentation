@@ -24,9 +24,12 @@ function Home() {
       
       <section id="validate">
         <h4>Validate CSS code using industry standard tools</h4>
-		<a className="big-pink-button"href="https://stylelint.io/" target="_blank" rel="noreferrer">stylelint</a>
+		<div>
+			<a className="big-pink-button"href="https://stylelint.io/" target="_blank" rel="noreferrer">stylelint</a>
+		</div>
       </section>
-	  <section id="validate">
+
+	  <section id="practice">
         <h4>practice</h4>
       </section>
     </section>
