@@ -1,10 +1,7 @@
 import "./Easing.css";
 function Easing() {
-
   return (
     <section id="easing">
-    
-
       <div id="track-1" className="track">
         <h4>linear</h4>
         <img src="/images/train.png" alt="train" />
@@ -24,9 +21,18 @@ function Easing() {
       <div id="track-5" className="track">
         <h4>custom</h4>
         <img src="/images/train.png" alt="train" />
+        <div class="easing-credit">
+          credit:
+          <a
+            href="https://codepen.io/setswon/pen/VJeXXq"
+            rel="noreferrer"
+            target="_blank"
+          >
+            https://codepen.io/setswon/pen/VJeXXq
+          </a>
+        </div>
       </div>
-	  <div>credit: <a href="https://codepen.io/setswon/pen/VJeXXq" rel="noreferrer" target="_blank" >https://codepen.io/setswon/pen/VJeXXq</a></div>
-	  https://matthewlein.com/tools/ceaser
+      <a className="big-pink-button" href="https://matthewlein.com/tools/ceaser" target="_blank" rel="noreferrer">easing visualization tool</a>
     </section>
   );
 }

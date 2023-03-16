@@ -34,6 +34,7 @@
 
 .tab-body .tab-content {
 	display: none;
+	width: 100%;
 }
 .tab-body .tab-content.active {
 	display: block;
