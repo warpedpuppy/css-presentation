@@ -18,7 +18,7 @@ function NavBar() {
 	})
 	return ( 
 		<nav id="main-nav">
-			<Link to="/" className="nav-brand">css</Link>
+			<Link to="/" className="nav-brand">transitions / animations</Link>
 			<input className="nav-hamburger" id="main-checkbox" type="checkbox" ref={checkboxRef} />
 			<div className="nav-hamburger-spans">
                 <span></span>
@@ -26,7 +26,6 @@ function NavBar() {
                 <span></span>
             </div>
 			<ul className="nav-links">
-				<li className={ returnActive('') } onClick={() => clickHandler('/')}>home</li>
 				<li className={ returnActive('transitions') } onClick={() => clickHandler('/transitions')}>transitions</li>
 				<li className={ returnActive('animations') } onClick={() => clickHandler('/animations')}>animations</li>
 				<li className={ returnActive('easing') } onClick={() => clickHandler('/easing')}>easing</li>

@@ -14,3 +14,79 @@
 	left: 0;
 	background-color: green;
 }
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+.bounce {
+	transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+	transition-duration: 2.9s;
+}
+
+.box {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	background-color: #212121;
+	border-radius: 20px;
+	transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+
+}
+.box:hover {
+	transform: scale(1.5);
+}
+.track {
+	background-color: lightgray;
+	width: 50%;
+	margin: 20px auto;
+	position: relative;
+	display: flex;
+	align-items: center	;
+	cursor: pointer;
+}
+.track h4{ 
+	position: absolute;
+	text-align: right;
+	width: 100%;
+	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgba(0, 0, 0, 0.5)
+}
+.track:hover {
+	background-color: yellow;
+}
+.track img {
+	position: relative;
+	left: 0;
+	transition:  left;
+	transition-duration: 1.5s;
+}
+.track:hover img {
+	left: calc(100% - 100px);
+}
+#track-1 img {
+	transition-timing-function: linear;
+}
+
+#track-2 img {
+	transition-timing-function: ease-in;
+}
+
+#track-3 img {
+	transition-timing-function: ease-out;
+}
+
+#track-4 img {
+	transition-timing-function: ease-in-out;
+}
+
+#track-5 img {
+	transition-timing-function: cubic-bezier(.47,1.64,.41,.8);
+}
+

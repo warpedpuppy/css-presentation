@@ -5,12 +5,16 @@
 }
 
 #side-bar h4 {
-	padding: 15px 10px;
+	padding: 5px 10px;
+	border-top: 1px solid #FF00FF;
+	border-bottom: 1px solid #FF00FF;
 	text-align: left;
+	display: flex;
+	align-items: center;
 }
 
 #side-bar h4 a {
-	color: white;
+	color: rgba(255,255,255,0.5);
 	text-decoration: none;
 }
 
