@@ -1,17 +1,60 @@
 #home-page {
-	width: 80%;
 	margin: 0 auto;
 }
 
-section {
+#home-page ul {
+	list-style-type: circle;
+	margin-left: 100px;
+}
+#home-page ul li{
+	margin: 10px
+}
+#home-page ul li a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+#home-page ul li img {
+	position: relative;
+	animation-name: point;
+	width: 42px;
+	height: 21px;
+	top:7px;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+	color: #FF00FF;
+}
+
+#home-page section {
+	border-top: 2px dotted rgba(0, 0, 0, 0.25);
 	border-bottom: 2px dotted rgba(0, 0, 0, 0.25);
-	margin: auto 100px;
-	padding: 50px;
+	width: 95%;
+	margin: 10px auto 100px;
+	padding: 10px 20px 30px;
+	background-color: rgba(255,255,255,0.75);
+}
+
+#home-page section {
+	
 }
 
 
-
 @media (min-width: 1024px) {
+	#home-page section  {
+		width: 80%;
+	}
+}
 
-
+@keyframes point {
+	0% {
+		left: 0;
+	}
+	50% {
+		left: 40px;
+	}
+	100% {
+		left: 0;
+	}
 }

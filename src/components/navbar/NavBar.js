@@ -18,7 +18,7 @@ function NavBar() {
 	})
 	return ( 
 		<nav id="main-nav">
-			<Link to="/" className="nav-brand">transitions / animations</Link>
+			<Link to="/" className="nav-brand">transitions / animations in css</Link>
 			<input className="nav-hamburger" id="main-checkbox" type="checkbox" ref={checkboxRef} />
 			<div className="nav-hamburger-spans">
                 <span></span>
