@@ -6,7 +6,7 @@
   margin: 50px auto;
 }
 .asterisk {
-	color: red;
+  color: red;
 }
 #syntax-list div {
   width: 85%;
@@ -18,28 +18,63 @@
 }
 
 #syntax-list ul li {
-  background: rgba(0, 0, 0, 0.25);
+  position: relative;
+  cursor: pointer;
   margin: 3px 0 3px 10px;
+}
+#syntax-list ul li div.label {
+  background-color: rgba(0, 0, 0, 0.25);
   padding: 10px 20px;
   border-radius: 3px;
   cursor: pointer;
+  position: relative;
+  z-index: 34;
+  width: 100%;
+  transition: background-color var(--transition-timing);
 }
+#syntax-list ul li input {
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 35;
+  opacity: 0;
+}
+#syntax-list ul li input:hover ~ div.label {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#syntax-list ul li div.discussion {
+  display: none;
+}
+
+#syntax-list ul li input:checked ~ div.discussion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  border: 1px solid black;
+  width: 100%;
+}
+
 #syntax-list ul li a {
-	text-decoration: none;
-	font-weight: bold;
-	color: #333;
-	cursor: pointer;
-	text-align: left;
-	width: 100%;
-	display: block;
-  }
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
 
 #syntax-list .aside {
-	text-align: right;
-	font-size: 0.75rem;
-	font-style: italic;
-	width: 100%;
-	margin: 0 auto;
+  text-align: right;
+  font-size: 0.75rem;
+  font-style: italic;
+  width: 100%;
+  margin: 0 auto;
 }
 @media (min-width: 1024px) {
   #syntax-list {

@@ -5,10 +5,10 @@ function TransitionSyntax() {
       <div>
         <h4>properties:</h4>
         <ul>
-          <li>trasition-property</li>
-          <li>trasition-duration</li>
-          <li>trasition-timing-function</li>
-          <li>trasition-delay</li>
+          <li>transition-property</li>
+          <li>transition-duration</li>
+          <li>transition-timing-function</li>
+          <li>transition-delay</li>
         </ul>
 
         <h4>short hand:</h4>

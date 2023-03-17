@@ -5,16 +5,58 @@ function AnimationSyntax() {
       <div>
         <h4>properties:</h4>
         <ul>
-          <li>animation-name</li>
-		  <li>animation-duration</li>
-          <li>animation-timing-function</li>
-          <li>animation-delay</li>
-		  <li>animation-direction<span class="asterisk">*</span></li>
-          <li>animation-fill-mode<span class="asterisk">*</span></li>
-		  <li>animation-iteration-count<span class="asterisk">*</span></li>
-          <li>animation-play-state<span class="asterisk">*</span></li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">animation-name</div>
+            <div className="discussion">discussion</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">animation-duration</div>
+            <div className="discussion">discussion</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">animation-timing-function</div>
+            <div className="discussion">discussion</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">animation-delay</div>
+            <div className="discussion">discussion</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">
+              animation-direction<span class="asterisk">*</span>
+            </div>
+            <div className="discussion">discussion</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">
+              animation-fill-mode<span class="asterisk">*</span>
+            </div>
+            <div className="discussion">discussion</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">
+              animation-iteration-count<span class="asterisk">*</span>
+            </div>
+            <div className="discussion">discussion</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">
+              animation-play-state<span class="asterisk">*</span>
+            </div>
+            <div className="discussion">discussion</div>
+          </li>
         </ul>
-		<div class="aside"><span class="asterisk">*</span>does not exist in transitions</div>
+        <div class="aside">
+          <span class="asterisk">*</span>does not exist in transitions
+        </div>
         <h4>short hand:</h4>
         <ul>
           <li>
