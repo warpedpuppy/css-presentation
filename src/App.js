@@ -1,4 +1,5 @@
 import './App.css';
+import './css-generals/syntax-list.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Transitions from './components/transitions/Transitions';
 import Animations from './components/animations/Animations';

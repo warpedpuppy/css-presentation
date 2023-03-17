@@ -41,7 +41,7 @@
 }
 #transition-intro #demo div.demo-btn.hover {
 	transform: scale(1.1);
-	background-color: yellow;
+	background-color: lightgray;
 	color: black;
 }
 
