@@ -14,6 +14,10 @@
 	text-decoration: none;
 	color: #333;
 }
+#home-page ul li a:hover {
+	transition: opacity  var(--transition-timing);
+	opacity: 0.5;
+}
 
 #home-page ul li img {
 	position: relative;

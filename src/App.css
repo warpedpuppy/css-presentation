@@ -12,7 +12,8 @@
 	--orange1: #635021;
 	--red1: #533217;
 	--red2: #5c2a1d;
-
+	--transition-timing: 0.25s;
+	--semi-transparent-white: rgba(255,255,255,0.5);
 }
 
 * {

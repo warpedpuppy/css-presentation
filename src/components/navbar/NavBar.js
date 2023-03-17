@@ -26,9 +26,9 @@ function NavBar() {
                 <span></span>
             </div>
 			<ul className="nav-links">
-				<li className={ returnActive('transitions') } onClick={() => clickHandler('/transitions')}>transitions</li>
-				<li className={ returnActive('animations') } onClick={() => clickHandler('/animations')}>animations</li>
-				<li className={ returnActive('easing') } onClick={() => clickHandler('/easing')}>easing</li>
+				<li className={ returnActive('transitions') } onClick={() => clickHandler('/transitions')}><span></span>transitions</li>
+				<li className={ returnActive('animations') } onClick={() => clickHandler('/animations')}><span></span>animations</li>
+				<li className={ returnActive('easing') } onClick={() => clickHandler('/easing')}><span></span>easing</li>
 			</ul>
 		</nav>
 	 );

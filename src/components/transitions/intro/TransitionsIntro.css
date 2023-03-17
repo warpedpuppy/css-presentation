@@ -1,0 +1,73 @@
+#transition-intro {
+	width: 100%;
+}
+#transition-intro #demo {
+	margin: 100px auto;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+
+#transition-intro #demo div.demo-btn {
+	border: 1px solid black;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 0 auto;
+	background-color: black;
+	position: relative;
+	color: white;
+	font-weight: bold;
+	transition: all var(--transition-timing);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#transition-intro #demo .glow {
+	width: 500px;
+	height: 500px;
+	border: none;
+	background: rgb(255,255,0);
+	position: absolute;
+	z-index: -1;
+	background: radial-gradient(circle, rgba(255,255,0,1) 0%, rgba(255,255,0,0) 75%, rgba(255,255,0,0) 100%);
+	opacity: 0;
+}
+#transition-intro #demo div.demo-btn.hover {
+	transform: scale(1.1);
+	background-color: yellow;
+	color: black;
+}
+
+#transition-intro #demo div.demo-btn.hover .glow {
+	opacity: 0.5;
+
+}
+
+#transition-intro #demo img {
+	width: 42px;
+	height: 21px;
+	display: block;
+	margin: 0 auto;
+	transform: rotate(-90deg);
+	position: relative;
+	z-index: 20;
+	animation-name: point-diagonal;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes point-diagonal {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: -50px;
+	}
+	100% {
+		top: 0;
+	}
+}

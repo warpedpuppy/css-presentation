@@ -1,20 +1,22 @@
 import './SideBarTemplate.css';
-import { Link, useLocation } from 'react-router-dom';
-function SideBarTemplate(props) {
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+function SideBarTemplate({root, title, links}) {
 	const location = useLocation();
+	const navigate = useNavigate();
 	function returnActive(str) {
 		return location.pathname.split('/')[2] === str ? 'active' : '';
 	}
 	return ( 
 		<div id='side-bar'>
-			<h4><Link to={props.root}>{props.title}</Link></h4>
+			<h4 onClick={ () => navigate(root)}>{title}</h4>
 			<ul>
 				{
-					props.links.map( (link, index) => {
+					links.map( (link, index) => {
 						return (
 							<li 
 								className={ returnActive(link) } 
 								key={`link${link}${index}`}>
+								<span></span>
 								<Link to={link}>{ link }</Link>
 							</li>
 						)
