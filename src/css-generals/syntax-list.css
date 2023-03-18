@@ -47,16 +47,20 @@
 }
 
 #syntax-list ul li div.discussion {
-  display: none;
+  min-height: 0;
+  font-size: 0;
+  transition: min-height 1s;
 }
 
 #syntax-list ul li input:checked ~ div.discussion {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 250px;
+  font-size: inherit;
+  min-height: 200px;
   border: 1px solid black;
   width: 100%;
+  overflow: hidden;
 }
 
 #syntax-list ul li a {

@@ -30,7 +30,7 @@
 	border: 1px solid black;
 	border-radius: 10px;
 	color: white !important;
-	background-color: #F0F;
+	background-color: black;
 	transition: background-color 0.5s;
 	box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
 	text-decoration: none;
@@ -41,6 +41,6 @@
 }
 
 .big-pink-button:hover {
-	color: #F0F !important;
+	color: black !important;
 	background-color: white;
 }

@@ -5,10 +5,26 @@ function TransitionSyntax() {
       <div>
         <h4>properties:</h4>
         <ul>
-          <li>transition-property</li>
-          <li>transition-duration</li>
-          <li>transition-timing-function</li>
-          <li>transition-delay</li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">transition-property</div>
+            <div className="discussion">discussion</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">transition-duration</div>
+            <div className="discussion">discussion</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">transition-timing-function</div>
+            <div className="discussion">discussion</div>
+          </li>
+          <li>
+            <input type="checkbox" />
+            <div className="label">transition-delay</div>
+            <div className="discussion">discussion</div>
+          </li>
         </ul>
 
         <h4>short hand:</h4>
@@ -23,14 +39,13 @@ function TransitionSyntax() {
         <h4>definitive discussion:</h4>
         <ul>
           <li>
-            {" "}
-            <a
+		  <div className="label"><a
               href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition"
               target="_blank"
               rel="noreferrer"
             >
               mdn
-            </a>
+            </a></div>
           </li>
         </ul>
       </div>

@@ -69,6 +69,7 @@ function AnimationSyntax() {
         <h4>definitive discussion:</h4>
         <ul>
           <li>
+		  <div className="label">
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/CSS/animation"
               target="_blank"
@@ -76,6 +77,7 @@ function AnimationSyntax() {
             >
               mdn
             </a>
+			</div>
           </li>
         </ul>
       </div>
