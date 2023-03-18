@@ -28,6 +28,19 @@ input[type='checkbox']:checked:hover ~ .discussion #cube {
 	animation-play-state: paused;
 }
 
+input[type='checkbox']:checked ~ .discussion h4 {
+	display:none;
+	
+	justify-content: center;
+	text-align: center;
+	color: red;
+	font-size: 4rem;
+}
+
+input[type='checkbox']:checked:hover ~ .discussion h4 {
+	display: flex;
+}
+
 
 input[type='checkbox']:checked ~ .discussion #cube div {
 	width: var(--box-size);

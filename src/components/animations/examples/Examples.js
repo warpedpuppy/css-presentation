@@ -10,6 +10,7 @@ function AnimationPlayState () {
 			<div></div>
 			<div></div>
 		</div>
+		<h4>paused</h4>
 	</div> );
 }
 
