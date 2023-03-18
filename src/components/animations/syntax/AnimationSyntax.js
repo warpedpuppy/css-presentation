@@ -1,4 +1,5 @@
 import "./AnimationSyntax.css";
+import AnimimationPlayState from '../examples/Examples'
 function AnimationSyntax() {
   return (
     <section id="syntax-list">
@@ -51,7 +52,7 @@ function AnimationSyntax() {
             <div className="label">
               animation-play-state<span class="asterisk">*</span>
             </div>
-            <div className="discussion">discussion</div>
+            <div className="discussion"><AnimimationPlayState /></div>
           </li>
         </ul>
         <div class="aside">
