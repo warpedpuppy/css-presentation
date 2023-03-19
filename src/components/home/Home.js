@@ -2,6 +2,7 @@ import "./Home.css";
 import "./WelcomeStars.css";
 import { Link } from 'react-router-dom';
 import SVGS from "./svgs/SVGS";
+import CreateSVGs from "./create/CreateSVGs";
 function Home() {
   return (
     <section id="home-page">
@@ -20,12 +21,14 @@ function Home() {
         </ul>
       </section>
 
-	<SVGS />
+	  <SVGS />
+
+	  <CreateSVGs />
       
       <section id="validate">
         <h4>Validate CSS code using industry standard tools</h4>
 		<div>
-			<a className="big-pink-button"href="https://stylelint.io/" target="_blank" rel="noreferrer">stylelint</a>
+			<a className="big-button"href="https://stylelint.io/" target="_blank" rel="noreferrer">stylelint</a>
 		</div>
       </section>
 

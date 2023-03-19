@@ -1,6 +1,19 @@
 import "./SVGS.css";
 import TabTemplate from "../../../templates/TabTemplate";
 
+function Find() {
+	return (
+		<div>
+			<h4>navigate directory structure -- finding files!</h4>
+	  <ul>
+		<li>/</li>
+		<li>./</li>
+		<li>../</li>
+      </ul>
+	  </div>
+	);
+  }
+
 function Video() {
   return (
     <div style={{ position: "relative", paddingBottom: "56.25%", height: "0" }}>
@@ -23,40 +36,14 @@ function Video() {
   );
 }
 
-function Create() {
-  return (
-    <ul className="svg-create-buttons">
-      <li>
-        <a
-          href="https://inkscape.org/release/inkscape-1.2.2/"
-          target="_blank"
-          rel="noreferrer"
-          className="big-pink-button"
-        >
-          inkscape
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://app.haikei.app/"
-          target="_blank"
-          rel="noreferrer"
-          className="big-pink-button"
-        >
-          haikei
-        </a>
-      </li>
-    </ul>
-  );
-}
-
 function SVGS() {
   return (
     <section id="svgs">
       <h3>svgs</h3>
       <TabTemplate
-        links={["where are my svgs?", "how can I make svgs?"]}
-        content={[<Video />, <Create />]}
+        links={["navigate directory structure", "video navigating dir structure"]}
+        content={[<Find />, <Video />]}
+		title="navitate directory structure"
       />
     </section>
   );

@@ -32,7 +32,7 @@ function Easing() {
           </a>
         </div>
       </div>
-      <a className="big-pink-button" href="https://matthewlein.com/tools/ceaser" target="_blank" rel="noreferrer">easing visualization tool</a>
+      <a className="big-button" href="https://matthewlein.com/tools/ceaser" target="_blank" rel="noreferrer">easing visualization tool</a>
     </section>
   );
 }

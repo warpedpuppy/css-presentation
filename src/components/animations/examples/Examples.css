@@ -9,10 +9,6 @@ input[type='checkbox']:checked ~ .discussion #cube-container {
 	perspective: 1000px;
   	perspective-origin: 50% -100%;
 	margin: 0 auto;
-	opacity: 0;
-	animation-name: fade-in;
-	animation-duration: 5s;
-	animation-fill-mode: forwards;
 }
 
 
@@ -30,7 +26,6 @@ input[type='checkbox']:checked:hover ~ .discussion #cube {
 
 input[type='checkbox']:checked ~ .discussion h4 {
 	display:none;
-	
 	justify-content: center;
 	text-align: center;
 	color: red;
@@ -83,13 +78,5 @@ input[type='checkbox']:checked ~ .discussion #cube div:nth-child(6) {
 	100% {
 		transform: rotateY(350deg);
 
-	}
-}
-@keyframes fade-in {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 100%;
 	}
 }

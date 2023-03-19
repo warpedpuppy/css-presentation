@@ -63,6 +63,17 @@
   overflow: hidden;
 }
 
+input[type='checkbox']:checked ~ .discussion > div {
+	position: relative;
+	margin: 0 auto;
+	opacity: 0;
+	animation-name: fade-in;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+}
+
+
+
 #syntax-list ul li a {
   text-decoration: none;
   font-weight: bold;
@@ -80,6 +91,9 @@
   width: 100%;
   margin: 0 auto;
 }
+
+
+
 @media (min-width: 1024px) {
   #syntax-list {
     padding: 0 0 0 100px;

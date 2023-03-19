@@ -1,5 +1,5 @@
 import "./TabTemplate.css";
-import { Link, Outlet } from "react-router-dom";
+// import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
 function TabTemplate(props) {
   const [active, setActive] = useState(0);
@@ -12,7 +12,7 @@ function TabTemplate(props) {
             <li
               className={index === active ? "active" : ""}
               key={`link${link}${index}`}
-			  onClick={() => setActive(index)}
+              onClick={() => setActive(index)}
             >
               {link}
             </li>
@@ -22,12 +22,18 @@ function TabTemplate(props) {
       <div className="tab-body">
         {props.content.map((item, index) => {
           return (
-			<div className={index === active ? "active tab-content" : "tab-content"}>
-				{item}
-				</div>);
+            <div
+              className={
+                index === active ? "active tab-content" : "tab-content"
+              }
+              key={`tab-content-${index}`}
+            >
+              {item}
+            </div>
+          );
         })}
       </div>
-      <Outlet />
+      {/* <Outlet /> */}
     </div>
   );
 }
