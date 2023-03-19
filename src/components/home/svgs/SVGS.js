@@ -39,7 +39,7 @@ function Video() {
 function SVGS() {
   return (
     <section id="svgs">
-      <h3>svgs</h3>
+      <h3>where are my svgs?</h3>
       <TabTemplate
         links={["navigate directory structure", "video navigating dir structure"]}
         content={[<Find />, <Video />]}

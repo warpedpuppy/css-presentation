@@ -14,6 +14,7 @@ function Home() {
         <h4>goals of this talk:</h4>
         <ul>
           <li><a href="#svgs">Locate relevant SVG file(s) and add to page</a><img src="/images/pointing-finger.png" alt='pointing finger' /></li>
+		  <li><a href="#create-svgs">Learn where you can create SVGs</a><img src="/images/pointing-finger.png" alt='pointing finger' /></li>
 		  <li><Link to="/transitions">Code CSS Transitions</Link><img src='/images/pointing-finger.png' alt='pointing finger' /></li>
           <li><Link to="/animations">Code CSS Animations</Link><img src='/images/pointing-finger.png' alt='pointing finger' /></li>
           <li><a href="#validate">Validate CSS code using industry standard tools</a><img src='/images/pointing-finger.png' alt='pointing finger' /></li>

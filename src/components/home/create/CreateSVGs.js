@@ -27,6 +27,7 @@ function CreateSVGs() {
 	const content = [<OnlineGenerator />, <SVGSoftware />]
 	return (
 		<section id="create-svgs">
+			 <h3>How can I create svgs?</h3>
 			<TabTemplate title="create svgs" links={links} content={content} />
 		</section>
 	  );
