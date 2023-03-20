@@ -16,9 +16,9 @@ function ForwardSlash() {
 function DotForwardSlash() {
 	return (
 		<div class='discussion-text'>
-		<p>This, in my opinion is the easiest!</p>
+		<p>This, in my opinion, is the easiest!</p>
 		<p>When there is a dot and then a forward slash (or nothing!) in front of the path that means that it will start looking in the <b>current directory</b>.</p>
-		<p>so "./someFile.html" means that "someFile.html" is a sibling of the file that you are currently looking at!</p>
+		<p>so "./someFile.html" means that "someFile.html" is a sibling of the file that you are currently looking at.</p>
 		<p>The video in the second tab will illustrate this further.</p>
 		</div>
 	)
@@ -27,8 +27,8 @@ function DotDotForwardSlash() {
 	return (
 		<div class='discussion-text'>
 		<p>When there are two dots and then a forward slash in front of the path that means that it will start looking in <b>one above the current directory</b>.</p>
-		<p>So "../someFile.html" means that "someFile.html" is a sibling <em>of the parent</em> of the file that you are currently looking at!</p>
-		<p>And "../../someFile.html" means that "someFile.html" is a sibling <em>of the grandparent</em> of the file that you are currently looking at!</p>
+		<p>So "../someFile.html" means that "someFile.html" is a sibling <em>of the parent</em> of the file that you are currently looking at.</p>
+		<p>And "../../someFile.html" means that "someFile.html" is a sibling <em>of the grandparent</em> of the file that you are currently looking at.</p>
 		<p>The video in the second tab will illustrate this further.</p>
 		</div>
 	)
@@ -77,7 +77,7 @@ function FindSVGS() {
       <TabTemplate
         links={[
           "navigate directory structure",
-          "video navigating dir structure",
+          "video navigating directory structure",
         ]}
         content={[<Find />, <Video />]}
         title="navitate directory structure"

@@ -44,13 +44,6 @@
 	background-color: rgba(255,255,255,0.75);
 }
 
-#home-page section#validate div{
-	min-height: 300px;
-	padding-top: 100px;
-
-}
-
-
 @media (min-width: 1024px) {
 	#home-page > section  {
 		width: 80%;

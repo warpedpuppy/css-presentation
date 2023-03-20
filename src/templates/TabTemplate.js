@@ -1,13 +1,12 @@
 import "./TabTemplate.css";
-// import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
-function TabTemplate(props) {
+function TabTemplate({links, content}) {
   const [active, setActive] = useState(0);
 
   return (
     <div className="tab-parent">
       <ul className="tabs">
-        {props.links.map((link, index) => {
+        {links.map((link, index) => {
           return (
             <li
               className={index === active ? "active" : ""}
@@ -20,7 +19,7 @@ function TabTemplate(props) {
         })}
       </ul>
       <div className="tab-body">
-        {props.content.map((item, index) => {
+        {content.map((item, index) => {
           return (
             <div
               className={
@@ -33,7 +32,6 @@ function TabTemplate(props) {
           );
         })}
       </div>
-      {/* <Outlet /> */}
     </div>
   );
 }
