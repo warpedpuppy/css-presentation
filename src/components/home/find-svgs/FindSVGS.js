@@ -36,7 +36,7 @@ function DotDotForwardSlash() {
 function Find() {
   return (
     <ListTemplate
-      title="navigating directory structure"
+      title=""
       labels={[
         "forward slash (/)",
         "dot forward slash (./) or nothing ()",
