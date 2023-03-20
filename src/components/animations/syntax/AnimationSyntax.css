@@ -1,8 +1,7 @@
-#animation-syntax {
+/* #animation-syntax {
 	width: 100vw;
 	
 }
-
 
 @media (min-width: 1024px) {
 	#animation-syntax {
@@ -10,4 +9,4 @@
 		width: calc(100vw - 200px);
 	}
 
-}
+} */

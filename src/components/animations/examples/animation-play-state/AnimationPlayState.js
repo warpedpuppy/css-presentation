@@ -1,4 +1,4 @@
-import './Examples.css';
+import './AnimationPlayState.css';
 function AnimationPlayState () {
 	return ( 
 	<div id="cube-container">
