@@ -1,28 +1,27 @@
-#syntax-list {
+.list-template {
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 50px auto;
 }
-.asterisk {
-  color: red;
-}
-#syntax-list div {
-  width: 85%;
+.list-template h4 {
+	text-align: left;
+	width: 95%;
 }
 
-#syntax-list ul {
+.list-template ul {
+	width: 95%;
   text-align: left;
   list-style-type: none;
 }
 
-#syntax-list ul li {
+.list-template ul li {
   position: relative;
   cursor: pointer;
-  margin: 3px 0 3px 10px;
+  margin: 3px auto;
 }
-#syntax-list ul li div.label {
+ ul li div.label {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 10px 20px;
   border-radius: 3px;
@@ -32,7 +31,7 @@
   width: 100%;
   transition: background-color var(--transition-timing);
 }
-#syntax-list ul li input {
+.list-template ul li input {
   cursor: pointer;
   width: 100%;
   display: block;
@@ -42,17 +41,17 @@
   z-index: 35;
   opacity: 0;
 }
-#syntax-list ul li input:hover ~ div.label {
-	background-color: rgba(0, 0, 0, 0.5);
+.list-template ul li input:hover ~ div.label {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-#syntax-list ul li div.discussion {
+.list-template ul li div.discussion {
   min-height: 0;
   font-size: 0;
   transition: min-height 1s;
 }
 
-#syntax-list ul li input:checked ~ div.discussion {
+.list-template ul li input:checked ~ div.discussion {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,18 +62,16 @@
   overflow: hidden;
 }
 
-input[type='checkbox']:checked ~ .discussion > div {
-	position: relative;
-	margin: 0 auto;
-	opacity: 0;
-	animation-name: fade-in;
-	animation-duration: 5s;
-	animation-fill-mode: forwards;
+input[type="checkbox"]:checked ~ .discussion > div {
+  position: relative;
+  margin: 0 auto;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
-
-
-#syntax-list ul li a {
+.list-template ul li a {
   text-decoration: none;
   font-weight: bold;
   color: #333;
@@ -84,22 +81,25 @@ input[type='checkbox']:checked ~ .discussion > div {
   display: block;
 }
 
-#syntax-list .aside {
+.list-template .aside {
   text-align: right;
   font-size: 0.75rem;
   font-style: italic;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
 }
-
-
-
+.asterisk {
+	color: red;
+  }
+  
 @media (min-width: 1024px) {
-  #syntax-list {
-    padding: 0 0 0 100px;
+  .list-template {
+    padding: 0;
     width: calc(100vw - 200px);
   }
-  #syntax-list div {
+
+  .list-template ul,
+  .list-template .aside {
     width: 80%;
   }
 }

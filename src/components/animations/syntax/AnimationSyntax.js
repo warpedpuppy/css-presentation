@@ -1,10 +1,16 @@
 import "./AnimationSyntax.css";
 import AnimimationPlayState from '../examples/Examples'
+import ListTemplate from "../../../templates/ListTemplate";
 function AnimationSyntax() {
+ 
   return (
     <section id="syntax-list">
-      <div>
-        <h4>properties:</h4>
+
+		<ListTemplate 
+		title='properties'
+		labels={['animation-name', 'animation-duration', 'animation-timing-function', 'animation-delay', ['animation-direction',<span class="asterisk">*</span>], ['animation-fill-mode',<span class="asterisk">*</span>], ['animation-iteration-count',<span class="asterisk">*</span>], ['animation-play-state',<span class="asterisk">*</span>]]}
+		content={[]}
+		aside={[ <span class="asterisk">*</span>,'does not exist in transitions']}/>
         <ul>
           <li>
             <input type="checkbox" />
@@ -81,7 +87,6 @@ function AnimationSyntax() {
 			</div>
           </li>
         </ul>
-      </div>
     </section>
   );
 }
