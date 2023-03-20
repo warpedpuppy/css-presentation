@@ -1,7 +1,7 @@
 import "./Home.css";
 import "./WelcomeStars.css";
 import { Link } from 'react-router-dom';
-import SVGS from "./svgs/SVGS";
+import FindSVGS from "./find-svgs/FindSVGS";
 import CreateSVGs from "./create/CreateSVGs";
 function Home() {
   return (
@@ -13,7 +13,7 @@ function Home() {
       <section id="welcome">
         <h4>goals of this talk:</h4>
         <ul>
-          <li><a href="#svgs">Locate relevant SVG file(s) and add to page</a><img src="/images/pointing-finger.png" alt='pointing finger' /></li>
+          <li><a href="#svgs">Locate relevant SVGs and add to page.</a><img src="/images/pointing-finger.png" alt='pointing finger' /></li>
 		  <li><a href="#create-svgs">Learn where you can create SVGs</a><img src="/images/pointing-finger.png" alt='pointing finger' /></li>
 		  <li><Link to="/transitions">Code CSS Transitions</Link><img src='/images/pointing-finger.png' alt='pointing finger' /></li>
           <li><Link to="/animations">Code CSS Animations</Link><img src='/images/pointing-finger.png' alt='pointing finger' /></li>
@@ -22,7 +22,7 @@ function Home() {
         </ul>
       </section>
 
-	  <SVGS />
+	  <FindSVGS />
 
 	  <CreateSVGs />
       

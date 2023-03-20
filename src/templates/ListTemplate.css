@@ -1,17 +1,17 @@
 .list-template {
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px auto;
+  margin: 10px auto;
 }
 .list-template h4 {
-	text-align: left;
-	width: 95%;
+  text-align: left;
+  width: 95%;
 }
 
 .list-template ul {
-	width: 95%;
+  width: 95%;
   text-align: left;
   list-style-type: none;
 }
@@ -21,10 +21,11 @@
   cursor: pointer;
   margin: 3px auto;
 }
- ul li div.label {
+ul li div.label {
   background-color: rgba(0, 0, 0, 0.25);
   padding: 10px 20px;
   border-radius: 3px;
+  font-weight: bold;
   cursor: pointer;
   position: relative;
   z-index: 34;
@@ -67,7 +68,7 @@ input[type="checkbox"]:checked ~ .discussion > div {
   margin: 0 auto;
   opacity: 0;
   animation-name: fade-in;
-  animation-duration: 5s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -89,17 +90,20 @@ input[type="checkbox"]:checked ~ .discussion > div {
   margin: 0 auto;
 }
 .asterisk {
-	color: red;
-  }
-  
+  color: red;
+}
+input[type="checkbox"]:checked ~ .discussion > div.discussion-text {
+  margin: 20px;
+}
+input[type="checkbox"]:checked ~ .discussion > .discussion-text p {
+  width: 80%;
+  margin: 15px auto;
+}
+
 @media (min-width: 1024px) {
   .list-template {
     padding: 0;
-    width: calc(100vw - 200px);
   }
 
-  .list-template ul,
-  .list-template .aside {
-    width: 80%;
-  }
+
 }

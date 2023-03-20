@@ -1,0 +1,10 @@
+#transition-syntax {
+  width: 100vw;
+  padding: 30px 0;
+}
+
+@media (min-width: 1024px) {
+  #transition-syntax {
+    width: calc(100vw - 200px);
+  }
+}

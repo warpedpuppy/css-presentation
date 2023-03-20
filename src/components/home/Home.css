@@ -35,7 +35,7 @@
 	animation-delay: 1s;
 }
 
-#home-page section {
+#home-page > section {
 	border-top: 2px dotted rgba(0, 0, 0, 0.25);
 	border-bottom: 2px dotted rgba(0, 0, 0, 0.25);
 	width: 95%;
@@ -52,7 +52,7 @@
 
 
 @media (min-width: 1024px) {
-	#home-page section  {
+	#home-page > section  {
 		width: 80%;
 	}
 	#home-page #welcome ul {
