@@ -32,6 +32,9 @@ ul li div.label {
   width: 100%;
   transition: background-color var(--transition-timing);
 }
+ul li:hover div.label {
+	color: white;
+}
 .list-template ul li input {
   cursor: pointer;
   width: 100%;
