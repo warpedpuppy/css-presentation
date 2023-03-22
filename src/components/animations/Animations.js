@@ -1,20 +1,15 @@
 import PageTemplate from '../../templates/PageTemplate';
 import { Routes, Route } from 'react-router-dom';
-import Celebration from './celebration/Celebration';
-import DataVisualization from './data-visualization/DataVisualization';
-import Fun from './fun/Fun';
-import IntroAnimation from './intro/IntroAnimation';
+import AnimationProject from './animation-project/AnimationProject';
 import AnimationSyntax from './syntax/AnimationSyntax';
 function Animations() {
-	const links = ['animation-syntax', 'celebration', 'data-visualization', 'fun']
+	const links = ['animation-project', 'animation-syntax']
 	return ( 
 	<Routes>
-		<Route path="/" element={ <PageTemplate title="animations" root='/animations' links={links} /> } >
-			<Route path='/' element={ <IntroAnimation /> }/>
-			<Route path='celebration/*' element={ <Celebration /> }/>
-			<Route path='data-visualization/*' element={ <DataVisualization /> }/>
+		<Route path="/" element={ <PageTemplate title="animations" root='/animations/animation-project' links={links} /> } >
+			<Route path='/animation-project' element={ <AnimationProject /> }/>
 			<Route path='animation-syntax/*' element={ <AnimationSyntax /> }/>
-			<Route path='fun/*' element={ <Fun /> }/>
+			{/* <Route path='examples/*' element={ <Fun /> }/> */}
 		</Route>
 	</Routes> );
 }
