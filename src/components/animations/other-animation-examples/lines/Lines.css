@@ -17,7 +17,7 @@
   width: 15px;
   height: 500px;
   position: relative;
-  /* top: -500px; */
+  top: -500px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   animation: 20s ease-in-out descend;

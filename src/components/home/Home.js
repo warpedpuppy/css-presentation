@@ -23,11 +23,11 @@ function Home() {
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
           <li>
-            <Link to="/transitions">Code CSS Transitions</Link>
+            <Link to="/transitions/transition-project">Code CSS Transitions</Link>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
           <li>
-            <Link to="/animations">Code CSS Animations</Link>
+            <Link to="/animations/animation-project">Code CSS Animations</Link>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
           <li>
