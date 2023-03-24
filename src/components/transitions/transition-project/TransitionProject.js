@@ -15,16 +15,16 @@ function TransitionProject() {
         </div>
         <ul>
           <li>
-            <a href="#">menu item 1</a>
+            <button>menu item 1</button>
           </li>
           <li>
-            <a href="#">menu item 2</a>
+            <button>menu item 2</button>
           </li>
           <li>
-            <a href="#">menu item 3</a>
+            <button>menu item 3</button>
           </li>
           <li>
-            <a href="#">menu item 4</a>
+            <button>menu item 4</button>
           </li>
         </ul>
       </nav>
@@ -32,14 +32,14 @@ function TransitionProject() {
         <aside>
           <ul>
             <li>
-              <a href="#">
+              <button>
                 <span></span>sidebar item 1
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#">
+              <button>
                 <span></span>sidebar item 2
-              </a>
+              </button>
             </li>
           </ul>
         </aside>

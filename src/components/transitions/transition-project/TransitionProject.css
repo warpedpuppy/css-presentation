@@ -30,6 +30,7 @@
 #transition-example-project main div {
 	/* display: flex; */
 	/* width: calc(100% - 200px); */
+	width: 100%;
 }
 
 #transition-example-project nav {
@@ -90,8 +91,11 @@
 	top: calc(4 * -36px); /* 36 = 20px top and bottom padding plus 16px font size */
 	transition: top 1s;
 }
-#transition-example-project input[type="checkbox"] + .hamburger + ul li a {
+#transition-example-project nav input[type="checkbox"] + .hamburger + ul li button {
 	display: block;
+	text-align: left;
+	cursor: pointer;
+	border: none;
 	width: 100%;
 	font-size: 16px;
 	color: white;
@@ -100,7 +104,7 @@
 	background-color: #333;
 	transition: background-color 0.5s, color 0.5s;
 }
-#transition-example-project input[type="checkbox"] + .hamburger + ul li a:hover {
+#transition-example-project nav input[type="checkbox"] + .hamburger + ul li  button:hover {
 	background-color: #999;
 	color: black;
 }
@@ -121,12 +125,19 @@
 
 #transition-example-project aside {
 	min-height: 450px;
+	position: relative;
+	z-index: 30;
 	/* width: 200px; */
 	background-color: black;
 	border-top: 1px solid rgba(255,255,255,0.5)
 }
 
-#transition-example-project aside ul li a {
+#transition-example-project aside ul li button {
+	width: 100%;
+	border: none;
+	background-color: black;
+	text-align: left;
+	cursor: pointer;
 	position: relative;
 	font-size: 18px;
 	font-weight: bold;
@@ -137,7 +148,7 @@
 	transition: background-color 0.5s, color 0.5s;
 }
 
-#transition-example-project aside ul li a span {
+#transition-example-project aside ul li button span {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -147,12 +158,12 @@
 	transition: left 0.5s, background-color 0.5s;
 }
 
-#transition-example-project aside ul li a:hover {
+#transition-example-project aside ul li  button:hover {
 	color: black;
 	background-color: white;
 }
 
-#transition-example-project aside ul li a:hover span {
+#transition-example-project aside ul li  button:hover span {
 	left: calc(100% - 5px);
 	background-color: black;
 }
@@ -168,7 +179,7 @@
 	margin: 50px auto;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	width: 80%;
 }
 
 #transition-example-project #div-with-hover-transition button {
@@ -187,7 +198,7 @@
 #transition-example-project .glow-background {
 	position: absolute;
 	opacity: 0;
-	z-index: 21;
+	z-index: -1;
 	width: 500px;
 	height: 500px;
 	background: radial-gradient(circle, rgba(255,255,0,1) 0%, rgba(255,255,0,0) 75%, rgba(255,255,0,0) 100%);
