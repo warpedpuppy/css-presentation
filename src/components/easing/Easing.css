@@ -28,6 +28,10 @@
 .track:hover img {
 	left: calc(100% - 100px);
 }
+#track-0 img {
+	transition-timing-function: linear;
+}
+
 #track-1 img {
 	transition-timing-function: linear;
 }
