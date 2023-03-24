@@ -1,5 +1,5 @@
-import "./TransitionIntro.css";
-function TransitionIntro() {
+import "./TransitionProject.css";
+function TransitionProject() {
   return (
     <section id='transition-intro'>
       <h4>Let's build this together!</h4>
@@ -55,4 +55,4 @@ function TransitionIntro() {
   );
 }
 
-export default TransitionIntro;
+export default TransitionProject;

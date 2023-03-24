@@ -17,7 +17,7 @@ function SideBarTemplate({root, title, links}) {
 								className={ returnActive(link) } 
 								key={`link${link}${index}`}>
 								<span></span>
-								<Link to={link}>{ link }</Link>
+								<Link to={link}>{ link.replace('-', ' ') }</Link>
 							</li>
 						)
 					})

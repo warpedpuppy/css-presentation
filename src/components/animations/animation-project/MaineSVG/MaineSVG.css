@@ -1,0 +1,227 @@
+:root {
+  --day-length: 20s;
+}
+
+svg * {
+  transform-box: fill-box;
+}
+svg > g#sun-moon {
+  transform-origin: 50% 50%;
+  animation: spin var(--day-length) infinite linear;
+}
+
+svg > #sky rect,
+#mtn-backing path {
+  animation: dye var(--day-length) infinite linear;
+}
+
+svg > #stars {
+  transform-origin: 50% 50%;
+  animation: glow var(--day-length) infinite linear;
+}
+
+svg #light {
+  animation: glow var(--day-length) infinite linear;
+}
+
+svg > #stars polygon {
+  transform-origin: 50% 50%;
+  animation: twinkle 10s infinite linear;
+}
+svg > #stars polygon:nth-child(odd) {
+  animation-direction: reverse;
+}
+
+#moon {
+  transform-origin: 50% 50%;
+  animation: spin var(--day-length) infinite linear;
+  animation-direction: reverse;
+}
+
+svg #clouds {
+  animation: clouds-move 30s infinite linear;
+}
+
+@keyframes clouds-move {
+  0% {
+    transform: translate(500px, 0);
+  }
+  100% {
+    transform: translate(-500px, 0);
+  }
+}
+
+@keyframes glow {
+  0% {
+    /* dawn */
+    opacity: 0.75;
+  }
+  25% {
+    /* day */
+    opacity: 1;
+  }
+  50% {
+    /* dusk */
+    opacity: 0.1;
+  }
+  75% {
+    /* midnight */
+    opacity: 0;
+  }
+  100% {
+    /* dawn */
+    opacity: 0.75;
+  }
+}
+
+@keyframes twinkle {
+  0% {
+    /* dusk */
+    opacity: 0.5;
+    transform: rotate(0);
+  }
+  10% {
+    opacity: 0.15;
+    transform: scale(1);
+  }
+  15% {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+  25% {
+    /* midnight */
+    opacity: 0.15;
+    transform: rotate(360deg) scale(2);
+  }
+  30% {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+  35% {
+    opacity: 0.15;
+    transform: rotate(0) scale(1);
+  }
+  50% {
+    /* dawn */
+    opacity: 0.5;
+  }
+  75% {
+    /* day */
+    opacity: 1;
+    transform: rotate(360deg) scale(0);
+  }
+  100% {
+    /* dusk */
+    opacity: 0.5;
+  }
+}
+
+@keyframes dye {
+  0% {
+    fill: darkblue;
+  }
+  25% {
+    fill: black;
+  }
+  50% {
+    fill: darkblue;
+  }
+  75% {
+    fill: lightblue;
+  }
+  100% {
+    fill: darkblue;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.cls-1 {
+  fill: none;
+}
+
+.cls-2 {
+  fill: url(#linear-gradient);
+}
+
+.cls-3 {
+  fill: #00aeef;
+}
+
+.cls-4 {
+  fill: #231f20;
+}
+
+.cls-5 {
+  opacity: 0.43;
+}
+
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8 {
+  stroke-width: 0.25px;
+}
+
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8,
+.cls-9,
+.cls-10 {
+  stroke-miterlimit: 10;
+}
+
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8,
+.cls-10 {
+  stroke: #231f20;
+}
+
+.cls-5,
+.cls-7 {
+  fill: #fff;
+}
+
+.cls-6,
+.cls-9 {
+  fill: #fff200;
+}
+
+.cls-8 {
+  fill: #2e3192;
+}
+
+.cls-9 {
+  stroke: #6d6e71;
+}
+
+.cls-11 {
+  fill: url(#linear-gradient-2);
+}
+
+.cls-12 {
+  opacity: 0.34;
+}
+
+.cls-10 {
+  fill: url(#radial-gradient-2);
+}
+
+.cls-13 {
+  opacity: 0.54;
+}
+
+.cls-14 {
+  fill: url(#radial-gradient);
+  opacity: 0.3;
+}
