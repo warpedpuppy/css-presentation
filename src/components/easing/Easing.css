@@ -29,7 +29,7 @@
 	left: calc(100% - 100px);
 }
 #track-0 img {
-	transition-timing-function: linear;
+	transition-timing-function: ease;
 }
 
 #track-1 img {

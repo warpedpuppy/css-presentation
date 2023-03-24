@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import FindSVGS from "./find-svgs/FindSVGS";
 import CreateSVGs from "./create/CreateSVGs";
 import Validate from "./validate/Validate";
+import Introduction from "./introduction/Introduction";
 function Home() {
   return (
     <section id="home-page">
@@ -37,7 +38,7 @@ function Home() {
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
           <li>
-            <a href="#practice">Practice</a>
+            <a href="#whoami">Who am I?</a>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
         </ul>
@@ -48,6 +49,7 @@ function Home() {
       <CreateSVGs />
 
       <Validate />
+	 	<Introduction />
     </section>
   );
 }
