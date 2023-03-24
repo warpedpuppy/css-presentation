@@ -1,0 +1,134 @@
+:root {
+  --circle-size: 50px;
+  --container-size: 500px;
+  --alpha: 0.15;
+  --animation-speed: 15s;
+}
+#fanfare {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#fanfare .great-grandparent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#fanfare .great-grandparent:nth-child(2) {
+  transform: scale(1.1) rotate(45deg);
+}
+#fanfare .grandparent {
+  width: var(--container-size);
+  height: var(--container-size);
+  border: 1px solid rgba(0, 0, 0, var(--alpha));
+  position: absolute;
+  border-radius: 50%;
+  animation-name: rotate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  display: flex;
+  justify-content: center;
+}
+#fanfare .grandparent:nth-child(1) {
+  animation-duration: var(--animation-speed);
+}
+#fanfare .grandparent:nth-child(2) {
+  animation-direction: reverse;
+  animation-duration: var(--animation-speed);
+}
+#fanfare .grandparent:nth-child(3),
+#fanfare .grandparent:nth-child(4) {
+  width: calc(var(--container-size) * 0.66);
+  height: calc(var(--container-size) * 0.66);
+  animation-duration: var(--animation-speed);
+}
+#fanfare .grandparent:nth-child(5),
+#fanfare .grandparent:nth-child(6) {
+  width: calc(var(--container-size) * 0.33);
+  height: calc(var(--container-size) * 0.33);
+  animation-duration: var(--animation-speed);
+}
+#fanfare .grandparent:nth-child(4) {
+  animation-direction: reverse;
+}
+
+#fanfare .grandparent .parent {
+  border: 1px solid rgba(0, 0, 0, var(--alpha));
+  height: calc(var(--container-size) / 2);
+  position: absolute;
+}
+#fanfare .grandparent:nth-child(3) .parent,
+#fanfare .grandparent:nth-child(4) .parent {
+  height: calc(var(--container-size) * 0.66 / 2);
+}
+#fanfare .grandparent:nth-child(5) .parent,
+#fanfare .grandparent:nth-child(6) .parent {
+  height: calc(var(--container-size) * 0.33 / 2);
+}
+#fanfare .grandparent .parent .child {
+  width: var(--circle-size);
+  height: var(--circle-size);
+  border-radius: 60%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 78%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  position: relative;
+  animation-duration: 6s;
+  animation-name: up-down;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-color: red;
+}
+#fanfare .grandparent:nth-child(3) .parent .child,
+#fanfare .grandparent:nth-child(4) .parent .child {
+  width: calc(var(--circle-size) / 2);
+  height: calc(var(--circle-size) / 2);
+  animation-duration: 9s;
+}
+#fanfare .grandparent:nth-child(5) .parent .child,
+#fanfare .grandparent:nth-child(6) .parent .child {
+  width: calc(var(--circle-size) / 3);
+  height: calc(var(--circle-size) / 3);
+  animation-duration: 9s;
+}
+#fanfare .grandparent .parent:nth-child(2) {
+  transform: rotate(90deg);
+  transform-origin: 50% 100%;
+}
+#fanfare .grandparent .parent:nth-child(3) {
+  transform: rotate(180deg);
+  transform-origin: 50% 100%;
+}
+#fanfare .grandparent .parent:nth-child(4) {
+  transform: rotate(-90deg);
+  transform-origin: 50% 100%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    top: 0;
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.25);
+    top: calc(100% - var(--circle-size));
+  }
+  100% {
+    top: 0;
+    transform: scale(1);
+  }
+}
