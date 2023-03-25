@@ -14,17 +14,6 @@ function TransitionSyntax() {
         content={[]}
       />
 
-      <ListTemplate
-        title="short hand"
-        labels={[
-          "2 property -- name duration",
-          "3 -- name duration delay|easingfunction",
-          "4 -- name duration easing delay",
-          "mutltiple properties: chain with commas",
-          "all",
-        ]}
-        content={[]}
-      />
 
       <ListTemplate
         title="definitive discussion"

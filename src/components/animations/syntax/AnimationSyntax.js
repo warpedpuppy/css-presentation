@@ -22,17 +22,6 @@ function AnimationSyntax() {
           "does not exist in transitions",
         ]}
       />
-
-      <ListTemplate
-        title="short hand"
-        labels={[
-          "duration | easing-function | delay | iteration-count | direction | fill-mode | play-state | name",
-          "3s linear 1s slidein",
-          "mutltiple properties: chain with commas",
-        ]}
-        content={[]}
-      />
-
       <ListTemplate
         title="definitive discussion"
         labels={[

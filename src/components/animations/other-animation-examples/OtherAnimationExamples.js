@@ -3,8 +3,8 @@ import Fanfare from './fanfare/Fanfare';
 import Squares from './squares/Squares';
 import Lines from './lines/Lines';
 function OtherAnimationExamples() {
-	const links = ['fanfare', 'lines', 'squares']
-	const content = [<Fanfare />, <Lines />, <Squares />]
+	const links = ['lines', 'squares', 'fanfare']
+	const content = [<Lines />, <Squares />, <Fanfare />]
 	return ( <TabTemplate links={links} content={content} />);
 }
 
