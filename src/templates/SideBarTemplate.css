@@ -59,7 +59,7 @@
 
 @media (min-width: 1024px) {
 	#side-bar {
-		height: 100vh;
+		min-height: 3000px;
 		background-color: black;
 		color: white;
 		text-align: right;
