@@ -16,7 +16,7 @@ function Home() {
         <h4>goals of this talk:</h4>
         <ul>
           <li>
-            <a href="#svgs">Locate svgs and add them to your page.</a>
+            <a href="#svgs">Add svgs to your page.</a>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
           {/* <li>
