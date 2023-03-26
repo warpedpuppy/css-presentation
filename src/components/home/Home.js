@@ -16,7 +16,13 @@ function Home() {
         <h4>goals of this talk:</h4>
         <ul>
           <li>
-            <a href="#svgs">Add svgs to your page.</a>
+            <a href="#svgs">Add svgs to your page</a>
+            <img src="/images/pointing-finger.png" alt="pointing finger" />
+          </li>
+		  <li>
+            <a href="#validate">
+              Validate CSS
+            </a>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
           {/* <li>
@@ -31,12 +37,7 @@ function Home() {
             <Link to="/animations/animation-project">Code CSS Animations</Link>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
-          <li>
-            <a href="#validate">
-              Validate CSS
-            </a>
-            <img src="/images/pointing-finger.png" alt="pointing finger" />
-          </li>
+         
           <li>
             <a href="#whoami">Who am I?</a>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
