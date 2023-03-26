@@ -1,6 +1,6 @@
 import './Squares.css';
 function Squares() {
-	return ( <svg id="squares">
+	return ( <svg id="squares" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250">
 		<rect class="leftBack vertBox" />
 		<rect class="rightBack vertBox" />
 		<rect class="topBack horizBox" />
