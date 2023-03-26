@@ -1,53 +1,13 @@
 import "./TransitionProject.css";
+import TabTemplate from "../../../templates/TabTemplate";
+import TransitionIntro from "./intro/TransitionIntro";
 function TransitionProject() {
+  const links = ["project", "codepens"];
+  const content = [<TransitionIntro />, <p>put codepens here</p>];
   return (
-    <section id='transition-intro'>
+    <section id="transition-intro">
       <h4>Let's build this together!</h4>
-	
-	<div id="transition-example-project">
-      <nav>
-        <h1>brand</h1>
-        <input type="checkbox" />
-        <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <ul>
-          <li>
-            <button>menu item 1</button>
-          </li>
-          <li>
-            <button>menu item 2</button>
-          </li>
-          <li>
-            <button>menu item 3</button>
-          </li>
-          <li>
-            <button>menu item 4</button>
-          </li>
-        </ul>
-      </nav>
-      <main>
-        <aside>
-          <ul>
-            <li>
-              <button>
-                <span></span>sidebar item 1
-              </button>
-            </li>
-            <li>
-              <button>
-                <span></span>sidebar item 2
-              </button>
-            </li>
-          </ul>
-        </aside>
-        <div>
-            <button>hover over and click me</button>
-        </div>
-      </main>
-	  </div>
+      <TabTemplate links={links} content={content} />
     </section>
   );
 }
