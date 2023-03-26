@@ -19,7 +19,7 @@ function Stylelint() {
 function Validate() {
 	return ( 
 		<section id="validate">
-			 <h4>Validate CSS code using industry standard tools</h4>
+			 <h4>Validate CSS!</h4>
 			<TabTemplate links={['video showing validation', 'link to validator']} content={[<StylelintVideo />, <Stylelint />]}/>
        
       </section>

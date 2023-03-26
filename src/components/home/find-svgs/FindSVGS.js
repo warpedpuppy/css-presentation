@@ -73,7 +73,7 @@ function Video() {
 function FindSVGS() {
   return (
     <section id="svgs">
-      <h3>Locate relevant SVGs and add to page.</h3>
+      <h3>Locate and add SVGs</h3>
       <TabTemplate
         links={[
           "navigate directory structure",
