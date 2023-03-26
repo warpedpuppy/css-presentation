@@ -16,11 +16,11 @@ function Home() {
         <h4>goals of this talk:</h4>
         <ul>
           <li>
-            <a href="#svgs">Add SVGs to your page</a>
+            <a href="#svgs">Add SVGs to your page!</a>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
 		  <li>
-            <a href="#validate">Validate CSS</a>
+            <a href="#validate">Validate CSS!</a>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
           {/* <li>
@@ -28,11 +28,11 @@ function Home() {
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li> */}
           <li>
-            <Link to="/transitions/transition-project">Code CSS Transitions</Link>
+            <Link to="/transitions/transition-project">Code CSS Transitions!</Link>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
           <li>
-            <Link to="/animations/animation-project">Code CSS Animations</Link>
+            <Link to="/animations/animation-project">Code CSS Animations!</Link>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
          
