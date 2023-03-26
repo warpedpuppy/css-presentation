@@ -1,5 +1,4 @@
 import "./AnimationSyntax.css";
-import AnimationPlayState from "./syntax-examples/animation-play-state/AnimationPlayState";
 import ListTemplate from "../../../templates/ListTemplate";
 function AnimationSyntax() {
   return (
