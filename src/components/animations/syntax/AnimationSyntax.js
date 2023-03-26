@@ -16,7 +16,7 @@ function AnimationSyntax() {
           ["animation-iteration-count", <span class="asterisk">*</span>],
           ["animation-play-state", <span class="asterisk">*</span>],
         ]}
-        content={[<AnimationPlayState />]}
+        content={[<></>]}
         aside={[
           <span class="asterisk">*</span>,
           "does not exist in transitions",

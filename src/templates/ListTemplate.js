@@ -8,7 +8,7 @@ function ListTemplate({ title, labels, content, aside, open }) {
       <ul >
         {labels.map((label, index) => {
           return (
-			<LiTemplate content={content[index] ? content[index] : "discussion"} label={label} open={open} />
+			<LiTemplate content={content[index] ? content[index] : ""} label={label} open={open} />
           );
         })}
       </ul>
