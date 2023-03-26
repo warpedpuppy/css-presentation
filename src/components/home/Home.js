@@ -16,13 +16,13 @@ function Home() {
         <h4>goals of this talk:</h4>
         <ul>
           <li>
-            <a href="#svgs">Locate relevant SVGs and add to page.</a>
+            <a href="#svgs">Locate svgs and add them to your page.</a>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
-          <li>
-            <a href="#create-svgs">Learn where you can create SVGs</a>
+          {/* <li>
+            <a href="#create-svgs">Learn where you can create svgs</a>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
-          </li>
+          </li> */}
           <li>
             <Link to="/transitions/transition-project">Code CSS Transitions</Link>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
@@ -33,7 +33,7 @@ function Home() {
           </li>
           <li>
             <a href="#validate">
-              Validate CSS code using industry standard tools
+              Validate CSS
             </a>
             <img src="/images/pointing-finger.png" alt="pointing finger" />
           </li>
