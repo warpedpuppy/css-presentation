@@ -4,6 +4,7 @@
   position: relative;
   overflow: hidden;
   background-color: black;
+  aspect-ratio: 2 / 1;
 }
 
 #lines-cont div:nth-child(1) {
