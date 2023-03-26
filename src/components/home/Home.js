@@ -2,7 +2,7 @@ import "./Home.css";
 import "./WelcomeStars.css";
 import { Link } from "react-router-dom";
 import FindSVGS from "./find-svgs/FindSVGS";
-import CreateSVGs from "./create/CreateSVGs";
+// import CreateSVGs from "./create/CreateSVGs";
 import Validate from "./validate/Validate";
 import Introduction from "./introduction/Introduction";
 function Home() {
@@ -45,7 +45,7 @@ function Home() {
 
       <FindSVGS />
 
-      <CreateSVGs />
+      {/* <CreateSVGs /> */}
 
       <Validate />
 	 	<Introduction />
