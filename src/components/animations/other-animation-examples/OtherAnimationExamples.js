@@ -4,8 +4,8 @@ import Squares from './squares/Squares';
 import Lines from './lines/Lines';
 import MaineSVG from './MaineSVG/MaineSVG';
 function OtherAnimationExamples() {
-	const links = ['maine', 'lines', 'squares', 'fanfare']
-	const content = [<MaineSVG />, <Lines />, <Squares />, <Fanfare />]
+	const links = ['squares', 'lines', 'maine', 'fanfare']
+	const content = [<Squares />,<Lines />,<MaineSVG />,   <Fanfare />]
 	return ( <TabTemplate links={links} content={content} />);
 }
 
