@@ -44,10 +44,7 @@ function TransitionProject() {
           </ul>
         </aside>
         <div>
-          <div id="div-with-hover-transition">
             <button>hover over and click me</button>
-            <div class="glow-background"></div>
-          </div>
         </div>
       </main>
 	  </div>

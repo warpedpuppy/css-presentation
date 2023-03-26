@@ -1,11 +1,11 @@
 import './AnimationProject.css';
-import MaineSVG from './MaineSVG/MaineSVG';
+import IntroAnimation from './intro/IntroAnimation';
 
 function AnimationProject() {
   return (
     <section id="animation-project">
-      <h4>Let's build this together!</h4>
-		<MaineSVG />
+      <h4>Let's learn how animations work!</h4>
+		<IntroAnimation />
     </section>
   );
 }
