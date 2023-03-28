@@ -44,8 +44,8 @@
 
 @media (min-width: 1024px) {
 	.tab-parent {
-		padding: 50px;
-		margin-top: 0;
+		padding: 20px;
+		margin-top: 20px;
 	}
 	.tab-body {
 		padding: 30px 0;

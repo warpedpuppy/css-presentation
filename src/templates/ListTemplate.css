@@ -32,11 +32,11 @@ ul li div.label {
   width: 100%;
   transition: background-color var(--transition-timing);
 }
-ul li:hover div.label {
+/* ul li:hover div.label {
 	color: white;
-}
+} */
 .list-template ul li input {
-  cursor: pointer;
+  /* cursor: pointer; */
   width: 100%;
   display: block;
   height: 100%;
@@ -45,9 +45,9 @@ ul li:hover div.label {
   z-index: 35;
   opacity: 0;
 }
-.list-template ul li input:hover ~ div.label {
+/* .list-template ul li input:hover ~ div.label {
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 .list-template ul li div.discussion {
   min-height: 0;

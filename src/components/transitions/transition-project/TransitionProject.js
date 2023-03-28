@@ -7,7 +7,6 @@ function TransitionProject() {
   const content = [<TransitionIntro />, <TransitionCodepens />];
   return (
     <section id="transition-intro">
-      <h4>Let's build this together!</h4>
       <TabTemplate links={links} content={content} />
     </section>
   );

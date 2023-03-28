@@ -1,6 +1,7 @@
 import "./Fanfare.css";
 function Fanfare() {
   return (
+	<div>
     <div id="fanfare">
       <div class="great-grandparent">
         <div class="grandparent">
@@ -91,6 +92,18 @@ function Fanfare() {
         </div>
       </div>
     </div>
+	<button
+            onClick={() =>
+              window.open(
+                "https://codepen.io/warpedpuppy/pen/ExeGwBZ",
+                "_blank"
+              )
+            }
+            class="big-button"
+          >
+            link to codepen
+          </button>
+	</div>
   );
 }
 

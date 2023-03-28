@@ -4,3 +4,30 @@
 	border: 5px solid #FF00FF;
 
 }
+
+#animation-codepens  h2 {
+	width: 100%;
+	margin: 0 0 20px 20px;
+	text-align: left;
+
+}
+#animation-codepens ol {
+	
+}
+
+#animation-codepens ol li {
+ text-align: left;
+ margin: 0 0 0 40px;
+}
+
+
+@media (min-width: 1024px) {
+	#animation-codepens h2 {
+		margin: 0 0 20px 0;
+	}
+	#animation-codepens ol li {
+		text-align: left;
+		margin: 0 0 0 100px;
+	   }
+	   
+}

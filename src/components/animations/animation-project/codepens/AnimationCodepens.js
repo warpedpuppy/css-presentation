@@ -2,7 +2,9 @@ import "./AnimationCodepens.css";
 function AnimationCodepens() {
   return (
     <div id="animation-codepens">
-      
+      <h2>let's animate!</h2>
+	  <ol><li>
+		<h3>The 8 properties of animations: </h3>
           <button
             onClick={() =>
               window.open(
@@ -14,7 +16,8 @@ function AnimationCodepens() {
           >
             step one
           </button>
-       
+		  </li><li>
+		  <h3>Animating multiple characteristics at once: </h3>
           <button
             onClick={() =>
               window.open(
@@ -26,7 +29,8 @@ function AnimationCodepens() {
           >
             step two
           </button>
-      
+		  </li><li>
+		  <h3>Extremely important svg gotchas: </h3>
           <button
             onClick={() =>
               window.open(
@@ -38,7 +42,8 @@ function AnimationCodepens() {
           >
             step three
           </button>
-       
+		  </li><li>
+		  <h3>Let's animate together: </h3>
           <button
             onClick={() =>
               window.open(
@@ -48,23 +53,14 @@ function AnimationCodepens() {
             }
             class="big-button"
           >
-            step four (not from curriculum -- ask CF)
+            step four
           </button>
-
-		  <button
-            onClick={() =>
-              window.open(
-                "https://codepen.io/careerfoundry/pen/wvqoyPW",
-                "_blank"
-              )
-            }
-            class="big-button"
-          >
-            alternate step four (from curriculum -- ask CF)
-          </button>
+		  </li></ol>
 
 		  <hr />
-
+		  <h2>fun home project for later!</h2>
+		  <ol><li>
+		  <h3>Can you animate the following: </h3>
 		  <button
             onClick={() =>
               window.open(
@@ -76,7 +72,8 @@ function AnimationCodepens() {
           >
             step five
           </button>
-       
+		  </li><li>
+		  <h3>One possible solution: </h3>
           <button
             onClick={() =>
               window.open(
@@ -88,7 +85,7 @@ function AnimationCodepens() {
           >
             step six
           </button>
-      
+		  </li></ol>
     </div>
   );
 }

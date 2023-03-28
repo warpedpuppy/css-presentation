@@ -1,7 +1,10 @@
 import './TransitionIntro.css';
 
 function TransitionIntro() {
-	return ( <div id="transition-example-project">
+	return ( 
+	<div>
+		<h2>Let's build this together!</h2>
+	<div id="transition-example-project">
 	<nav>
 	  <h1>brand</h1>
 	  <input type="checkbox" />
@@ -44,7 +47,7 @@ function TransitionIntro() {
 		  <button>hover over and click me</button>
 	  </div>
 	</main>
-	</div> );
+	</div> </div>);
 }
 
 export default TransitionIntro;

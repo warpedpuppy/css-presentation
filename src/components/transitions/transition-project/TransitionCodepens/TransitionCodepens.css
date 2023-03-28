@@ -1,0 +1,33 @@
+#transition-codepens hr {
+	display: block;
+	margin: 50px auto;
+	border: 5px solid #FF00FF;
+
+}
+
+#transition-codepens h2 {
+	width: 100%;
+	margin: 0 0 20px 20px;
+	text-align: left;
+
+}
+#transition-codepens ol {
+	
+}
+
+#transition-codepens ol li {
+ text-align: left;
+ margin: 0 0 0 40px;
+}
+
+
+@media (min-width: 1024px) {
+	#transition-codepens h2 {
+		margin: 0 0 20px 0;
+	}
+	#transition-codepens ol li {
+		text-align: left;
+		margin: 0 0 0 100px;
+	   }
+	   
+}

@@ -8,7 +8,7 @@ function AnimationProject() {
   return (
     <section id="animation-project">
 
-      <h4>Let's learn how animations work!</h4>
+
 	  <TabTemplate links={links} content={content} />
 		
     </section>
