@@ -1,68 +1,86 @@
-.track {
-	background-color: lightgray;
-	width: 95%;
-	margin: 20px auto;
-	position: relative;
-	display: flex;
-	align-items: center	;
-	cursor: pointer;
-}
-.track h4{ 
-	position: absolute;
-	text-align: right;
-	width: 100%;
-	font-size: 30px;
-	padding-right: 10px;;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgba(0, 0, 0, 0.5)
-}
-.track:hover {
-	background-color: yellow;
-}
-.track img {
-	position: relative;
-	left: 0;
-	transition:  left;
-	transition-duration: 1.5s;
-}
-.track:hover img {
-	left: calc(100% - 100px);
-}
-#track-0 img {
-	transition-timing-function: ease;
+.ease-example {
+  position: relative;
+  width: 95%;
+  margin: 20px auto;
 }
 
-#track-1 img {
-	transition-timing-function: linear;
+.ease-example svg{
+	border: 4px solid black;
+  }
+  
+
+.ease-example h4 {
+  position: absolute;
+  bottom: 30%;
+  right: 10px;
+  font-size: 1.5rem;
 }
 
-#track-2 img {
-	transition-timing-function: ease-in;
+.ease-example .cls-1 {
+  fill: #00aeef;
 }
 
-#track-3 img {
-	transition-timing-function: ease-out;
+.ease-example .arrow {
+  fill: #fff200;
+  stroke: #231f20;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+  animation-name: left-to-right;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
-#track-4 img {
-	transition-timing-function: ease-in-out;
+.ease-example:nth-child(2) .arrow {
+  animation-timing-function: linear;
+  fill: #2e3192;
 }
 
-#track-5 img {
-	transition-timing-function: cubic-bezier(.47,1.64,.41,.8);
+.ease-example:nth-child(3) .arrow {
+  animation-timing-function: ease-in;
+  fill: #662d91;
 }
 
-.easing-credit {
+.ease-example:nth-child(4) .arrow {
+  animation-timing-function: ease-out;
+  fill: #39b54a;
+}
+
+.ease-example:nth-child(5) .arrow {
+  animation-timing-function: ease-in-out;
+  fill: #ed1c24;
+}
+.ease-example:nth-child(6) svg  {
+	overflow: visible;
+  }
+
+.ease-example:nth-child(6) .arrow {
+	fill: #f15a29;
+	animation-timing-function: cubic-bezier(0.47, 1.64, 0.41, 0.8);
+  }
+
+  .easing-credit {
 	position: absolute;
 	width: 100%;
 	text-align: right;
 	bottom: -15px;
 	font-size: 10px;
+  }
+@keyframes left-to-right {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(500px, 0);
+  }
 }
 
-@media (min-width: 1024px) {
-	.track {
-		width: 50%;
-	}
 
+
+@media (min-width: 1024px) {
+
+  .ease-example {
+	width: 60%;
+  }
+  
 }

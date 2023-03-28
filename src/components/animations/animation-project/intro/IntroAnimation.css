@@ -1,12 +1,18 @@
-svg {
+svg#intro-svg {
   overflow: hidden;
+  display: block;
+	margin: 0 auto;
+	width: 95%;
 }
+
+
+
 
 svg * {
   transform-box: fill-box;
 }
 
-svg g {
+svg#intro-svg g {
   animation-duration: 4s;
 }
 
@@ -62,7 +68,11 @@ svg g {
   animation-timing-function: linear;
   animation-duration: 10s;
 }
-
+@media (min-width: 1024px) {
+	svg#intro-svg {
+		width: 80%;
+	}
+}
 @keyframes star {
   0% {
     transform: rotate(0) scale(2);
@@ -166,17 +176,6 @@ svg g {
   fill: #d7df23;
 }
 
-#intro-svg .cls-2,
-#intro-svg #intro-svg .cls-3,
-.cls-4,
-#intro-svg .cls-5,
-#intro-svg .cls-6,
-#intro-svg .cls-7,
-#intro-svg .cls-8,
-#intro-svg .cls-9 {
-  stroke-width: 2px;
-}
-
 #intro-svg .cls-3 {
   fill: #ed2590;
 }
@@ -199,4 +198,14 @@ svg g {
 
 #intro-svg .cls-9 {
   fill: #f15a29;
+}
+#intro-svg .cls-2,
+#intro-svg #intro-svg .cls-3,
+.cls-4,
+#intro-svg .cls-5,
+#intro-svg .cls-6,
+#intro-svg .cls-7,
+#intro-svg .cls-8,
+#intro-svg .cls-9 {
+  stroke-width: 2px;
 }
