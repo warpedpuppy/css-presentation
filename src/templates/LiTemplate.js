@@ -8,6 +8,7 @@ function LiTemplate({ label, content, open }) {
       <input
         type="checkbox"
         checked={open}
+		disabled
         // onClick={() => setChecked(!checked)}
       />
       <div className="label">{ label }</div>
