@@ -34,7 +34,7 @@ function TransitionCodepens() {
           </button>
         </li>
         <li>
-          <h3>super common svg gotchas:</h3>
+          <h3>coding a clickable hamburger (without javascript!):</h3>
           <button
             onClick={() =>
               window.open(
@@ -48,7 +48,7 @@ function TransitionCodepens() {
           </button>
         </li>
         <li>
-          <h3>let's animate:</h3>
+          <h3>drop down menu:</h3>
           <button
             onClick={() =>
               window.open(
