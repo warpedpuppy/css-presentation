@@ -19,7 +19,7 @@ function TransitionCodepens() {
           </button>
         </li>
         <li>
-          <h3>add additional animations:</h3>
+          <h3>sidebar transitions:</h3>
 
           <button
             onClick={() =>
