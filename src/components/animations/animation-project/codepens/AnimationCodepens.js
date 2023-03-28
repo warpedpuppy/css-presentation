@@ -48,7 +48,19 @@ function AnimationCodepens() {
             }
             class="big-button"
           >
-            step four
+            step four (not from curriculum -- ask CF)
+          </button>
+
+		  <button
+            onClick={() =>
+              window.open(
+                "https://codepen.io/careerfoundry/pen/wvqoyPW",
+                "_blank"
+              )
+            }
+            class="big-button"
+          >
+            alternate step four (from curriculum -- ask CF)
           </button>
 
 		  <hr />

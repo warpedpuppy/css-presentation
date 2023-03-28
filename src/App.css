@@ -37,7 +37,7 @@
 	text-decoration: none;
 	text-align: center;
 	font-weight: bold;
-	max-width: 500px;
+	/* max-width: 500px; */
 	min-width: 300px;
 	margin: 15px auto;
 }
