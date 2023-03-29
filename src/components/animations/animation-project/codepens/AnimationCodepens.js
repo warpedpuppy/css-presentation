@@ -12,7 +12,7 @@ function AnimationCodepens() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             step one
           </button>
@@ -25,7 +25,7 @@ function AnimationCodepens() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             step two
           </button>
@@ -38,7 +38,7 @@ function AnimationCodepens() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             step three
           </button>
@@ -51,7 +51,7 @@ function AnimationCodepens() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             step four
           </button>
@@ -68,7 +68,7 @@ function AnimationCodepens() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             step five
           </button>
@@ -81,7 +81,7 @@ function AnimationCodepens() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             step six
           </button>

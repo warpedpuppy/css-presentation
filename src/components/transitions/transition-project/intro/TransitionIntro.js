@@ -8,7 +8,7 @@ function TransitionIntro() {
 	<nav>
 	  <h1>brand</h1>
 	  <input type="checkbox" />
-	  <div class="hamburger">
+	  <div className="hamburger">
 		<span></span>
 		<span></span>
 		<span></span>

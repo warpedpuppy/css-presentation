@@ -5,7 +5,7 @@ import ListTemplate from "../../../templates/ListTemplate";
 
 function ForwardSlash() {
 	return (
-		<div class='discussion-text'>
+		<div className='discussion-text'>
 		<p>This is the tricky one! It looks innocent and simple but it does something quite dramatic!</p>
 		<p>When there is just a forward slash in front of the path that means that it will start looking in the <b>root of the server</b>.</p>
 		<p>Look at your browser window right now.  Up at the top is the "address bar" where you can see the directory structure of the remote server which is hosting the site you're viewing. The <b>root</b> of the server is all the way at the left, right after the domain.</p>
@@ -15,7 +15,7 @@ function ForwardSlash() {
 }
 function DotForwardSlash() {
 	return (
-		<div class='discussion-text'>
+		<div className='discussion-text'>
 		<p>This, in my opinion, is the easiest!</p>
 		<p>When there is a dot and then a forward slash (or nothing!) in front of the path that means that it will start looking in the <b>current directory</b>.</p>
 		<p>so "./someFile.html" means that "someFile.html" is a sibling of the file that you are currently looking at.</p>
@@ -25,7 +25,7 @@ function DotForwardSlash() {
 }
 function DotDotForwardSlash() {
 	return (
-		<div class='discussion-text'>
+		<div className='discussion-text'>
 		<p>When there are two dots and then a forward slash in front of the path that means that it will start looking in <b>one above the current directory</b>.</p>
 		<p>So "../someFile.html" means that "someFile.html" is a sibling <em>of the parent</em> of the file that you are currently looking at.</p>
 		<p>And "../../someFile.html" means that "someFile.html" is a sibling <em>of the grandparent</em> of the file that you are currently looking at.</p>

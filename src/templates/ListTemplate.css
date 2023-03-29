@@ -22,37 +22,43 @@
   margin: 3px auto;
 }
 ul li div.label {
+  position: relative;
+  z-index: 34;
   background-color: rgba(0, 0, 0, 0.25);
   padding: 10px 20px;
   border-radius: 3px;
   font-weight: bold;
   cursor: pointer;
-  position: relative;
-  z-index: 34;
+  display: flex;
+  align-items: center;
   width: 100%;
+  height: 50px;
   transition: background-color var(--transition-timing);
 }
-/* ul li:hover div.label {
-	color: white;
-} */
+ul li:hover div.label {
+  /* color: white; */
+}
 .list-template ul li input {
+  position: absolute;
+  z-index: 35;
   /* cursor: pointer; */
   width: 100%;
   display: block;
-  height: 100%;
-  position: absolute;
+  height: 50px;
+
   top: 0;
-  z-index: 35;
+
   opacity: 0;
 }
-/* .list-template ul li input:hover ~ div.label {
-  background-color: rgba(0, 0, 0, 0.5);
-} */
+.list-template ul li input:hover ~ div.label {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
 
-.list-template ul li div.discussion {
-  min-height: 0;
+.list-template ul li input ~ div.discussion {
+  max-height: 0;
   font-size: 0;
-  transition: min-height 1s;
+
+  transition: max-height 5s;
 }
 
 .list-template ul li input:checked ~ div.discussion {
@@ -60,19 +66,20 @@ ul li div.label {
   justify-content: center;
   align-items: center;
   font-size: inherit;
-  min-height: 200px;
+  max-height: unset;
   border: 1px solid black;
   width: 100%;
+  padding: 30px;
   overflow: hidden;
 }
-
-input[type="checkbox"]:checked ~ .discussion > div {
+input[type="checkbox"] ~ .discussion * {
   position: relative;
   margin: 0 auto;
   opacity: 0;
-  animation-name: fade-in;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+}
+input[type="checkbox"]:checked ~ .discussion * {
+  opacity: 1;
+  transition: opacity 1s;
 }
 
 .list-template ul li a {
@@ -107,6 +114,4 @@ input[type="checkbox"]:checked ~ .discussion > .discussion-text p {
   .list-template {
     padding: 0;
   }
-
-
 }

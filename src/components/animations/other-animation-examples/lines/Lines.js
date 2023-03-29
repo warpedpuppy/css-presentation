@@ -26,7 +26,7 @@ function Lines() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             link to codepen
           </button>

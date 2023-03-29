@@ -13,7 +13,7 @@ function TransitionCodepens() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             step one
           </button>
@@ -28,7 +28,7 @@ function TransitionCodepens() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             step two
           </button>
@@ -42,7 +42,7 @@ function TransitionCodepens() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             step three
           </button>
@@ -56,7 +56,7 @@ function TransitionCodepens() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             step four
           </button>
@@ -73,7 +73,7 @@ function TransitionCodepens() {
             "_blank"
           )
         }
-        class="big-button"
+        className="big-button"
       >
         step five
       </button>
@@ -83,7 +83,7 @@ function TransitionCodepens() {
         onClick={() =>
           window.open("https://codepen.io/warpedpuppy/pen/oNPVRVx", "_blank")
         }
-        class="big-button"
+        className="big-button"
       >
         step six
       </button>

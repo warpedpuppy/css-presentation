@@ -10,14 +10,14 @@ function AnimationSyntax() {
           "animation-duration",
           "animation-timing-function",
           "animation-delay",
-          ["animation-direction", <span class="asterisk">*</span>],
-          ["animation-fill-mode", <span class="asterisk">*</span>],
-          ["animation-iteration-count", <span class="asterisk">*</span>],
-          ["animation-play-state", <span class="asterisk">*</span>],
+          ["animation-direction", <span className="asterisk">*</span>],
+          ["animation-fill-mode", <span className="asterisk">*</span>],
+          ["animation-iteration-count", <span className="asterisk">*</span>],
+          ["animation-play-state", <span className="asterisk">*</span>],
         ]}
         content={[<></>]}
         aside={[
-          <span class="asterisk">*</span>,
+          <span className="asterisk">*</span>,
           "does not exist in transitions",
         ]}
       />

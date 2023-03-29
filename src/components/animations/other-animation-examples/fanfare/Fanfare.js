@@ -3,91 +3,91 @@ function Fanfare() {
   return (
 	<div>
     <div id="fanfare">
-      <div class="great-grandparent">
-        <div class="grandparent">
-          <div class="parent">
-            <div class="child"></div>
+      <div className="great-grandparent">
+        <div className="grandparent">
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
-          </div>
-        </div>
-        <div class="grandparent">
-          <div class="parent">
-            <div class="child"></div>
-          </div>
-          <div class="parent">
-            <div class="child"></div>
-          </div>
-          <div class="parent">
-            <div class="child"></div>
-          </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
         </div>
-        <div class="grandparent">
-          <div class="parent">
-            <div class="child"></div>
+        <div className="grandparent">
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
+          </div>
+        </div>
+        <div className="grandparent">
+          <div className="parent">
+            <div className="child"></div>
+          </div>
+          <div className="parent">
+            <div className="child"></div>
+          </div>
+          <div className="parent">
+            <div className="child"></div>
+          </div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
         </div>
       </div>
-      <div class="great-grandparent">
-        <div class="grandparent">
-          <div class="parent">
-            <div class="child"></div>
+      <div className="great-grandparent">
+        <div className="grandparent">
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
-          </div>
-        </div>
-        <div class="grandparent">
-          <div class="parent">
-            <div class="child"></div>
-          </div>
-          <div class="parent">
-            <div class="child"></div>
-          </div>
-          <div class="parent">
-            <div class="child"></div>
-          </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
         </div>
-        <div class="grandparent">
-          <div class="parent">
-            <div class="child"></div>
+        <div className="grandparent">
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
-          <div class="parent">
-            <div class="child"></div>
+          <div className="parent">
+            <div className="child"></div>
+          </div>
+        </div>
+        <div className="grandparent">
+          <div className="parent">
+            <div className="child"></div>
+          </div>
+          <div className="parent">
+            <div className="child"></div>
+          </div>
+          <div className="parent">
+            <div className="child"></div>
+          </div>
+          <div className="parent">
+            <div className="child"></div>
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@ function Fanfare() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             link to codepen
           </button>

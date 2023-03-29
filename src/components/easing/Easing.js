@@ -6,9 +6,9 @@ function Examples() {
     <section id="easing">
       <div className="ease-example">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50">
-          <rect class="cls-1" width="500" height="50" />
+          <rect className="cls-1" width="500" height="50" />
           <polygon
-            class="arrow"
+            className="arrow"
             points="16.98 16.78 16.98 5 40 25 16.98 45 16.98 33.22 0 33.22 0 16.78 16.98 16.78"
           />
         </svg>
@@ -17,9 +17,9 @@ function Examples() {
 
       <div className="ease-example">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50">
-          <rect class="cls-1" width="500" height="50" />
+          <rect className="cls-1" width="500" height="50" />
           <polygon
-            class="arrow"
+            className="arrow"
             points="16.98 16.78 16.98 5 40 25 16.98 45 16.98 33.22 0 33.22 0 16.78 16.98 16.78"
           />
         </svg>
@@ -28,9 +28,9 @@ function Examples() {
 
       <div className="ease-example">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50">
-          <rect class="cls-1" width="500" height="50" />
+          <rect className="cls-1" width="500" height="50" />
           <polygon
-            class="arrow"
+            className="arrow"
             points="16.98 16.78 16.98 5 40 25 16.98 45 16.98 33.22 0 33.22 0 16.78 16.98 16.78"
           />
         </svg>
@@ -39,9 +39,9 @@ function Examples() {
 
       <div className="ease-example">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50">
-          <rect class="cls-1" width="500" height="50" />
+          <rect className="cls-1" width="500" height="50" />
           <polygon
-            class="arrow"
+            className="arrow"
             points="16.98 16.78 16.98 5 40 25 16.98 45 16.98 33.22 0 33.22 0 16.78 16.98 16.78"
           />
         </svg>
@@ -50,9 +50,9 @@ function Examples() {
 
       <div className="ease-example">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50">
-          <rect class="cls-1" width="500" height="50" />
+          <rect className="cls-1" width="500" height="50" />
           <polygon
-            class="arrow"
+            className="arrow"
             points="16.98 16.78 16.98 5 40 25 16.98 45 16.98 33.22 0 33.22 0 16.78 16.98 16.78"
           />
         </svg>
@@ -61,14 +61,14 @@ function Examples() {
 
       <div className="ease-example">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50">
-          <rect class="cls-1" width="500" height="50" />
+          <rect className="cls-1" width="500" height="50" />
           <polygon
-            class="arrow"
+            className="arrow"
             points="16.98 16.78 16.98 5 40 25 16.98 45 16.98 33.22 0 33.22 0 16.78 16.98 16.78"
           />
         </svg>
         <h4>custom</h4>
-        <div class="easing-credit">
+        <div className="easing-credit">
           credit for the custom one:
           <a
             href="https://codepen.io/setswon/pen/VJeXXq"
@@ -86,7 +86,7 @@ function Examples() {
                 "_blank"
               )
             }
-            class="big-button"
+            className="big-button"
           >
             codepen
           </button>

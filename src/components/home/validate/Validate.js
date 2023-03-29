@@ -12,7 +12,7 @@ function Stylelint() {
 		<a className="big-button"href="https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint" target="_blank" rel="noreferrer">stylelint extension</a>
 		<p>If your stylelint is not working, go to the stylelint site itself and follow the "getting started" instructions:</p>
 		<a className="big-button"href="https://stylelint.io/user-guide/get-started" target="_blank" rel="noreferrer">stylelint's getting started.</a>
-		<p class="aside">Heads up, you may need to have installed <a href="https://nodejs.org/en/download" target="_blank" rel="noreferrer">node</a> first.</p>
+		<p className="aside">Heads up, you may need to have installed <a href="https://nodejs.org/en/download" target="_blank" rel="noreferrer">node</a> first.</p>
 	</div>
 	)
 }
