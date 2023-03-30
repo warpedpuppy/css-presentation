@@ -4,6 +4,20 @@ function TransitionCodepens() {
     <div id="transition-codepens">
 		<h2>Let's learn transitions!</h2>
       <ol>
+	  <li>
+          <h3>introduction -- what is a transition:</h3>
+          <button
+            onClick={() =>
+              window.open(
+                "https://codepen.io/warpedpuppy/pen/oNPOqPw",
+                "_blank"
+              )
+            }
+            className="big-button"
+          >
+             step one
+          </button>
+        </li>
         <li>
           <h3>learn the four properties of transitions:</h3>
           <button
@@ -15,7 +29,7 @@ function TransitionCodepens() {
             }
             className="big-button"
           >
-            step one
+            step two
           </button>
         </li>
         <li>
@@ -30,7 +44,7 @@ function TransitionCodepens() {
             }
             className="big-button"
           >
-            step two
+            step three
           </button>
         </li>
         <li>
@@ -44,7 +58,7 @@ function TransitionCodepens() {
             }
             className="big-button"
           >
-            step three
+            step four
           </button>
         </li>
         <li>
@@ -58,7 +72,7 @@ function TransitionCodepens() {
             }
             className="big-button"
           >
-            step four
+            step five
           </button>
         </li>
       </ol>
@@ -75,7 +89,7 @@ function TransitionCodepens() {
         }
         className="big-button"
       >
-        step five
+        step six
       </button>
 	  </li><li>
 	  <h3>one possible solution:</h3>
@@ -85,7 +99,7 @@ function TransitionCodepens() {
         }
         className="big-button"
       >
-        step six
+        step seven
       </button>
 	  </li></ol>
     </div>
