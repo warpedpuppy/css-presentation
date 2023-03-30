@@ -8,9 +8,9 @@
 	margin: 10px auto;
 	width: 80%;
 	overflow: hidden;
-	border: 3px solid var(--secondary-color);
-	/* border-top: none;
-	border-left: none; */
+	border: 1px solid var(--secondary-color);
+	border-top: none;
+	border-left: none;
 	border-radius: 5px;
 }
 
